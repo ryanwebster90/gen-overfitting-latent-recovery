@@ -11,7 +11,7 @@ pytorch implementation of "Detecting Overfitting of Deep Generators via Latent R
 # Example Images (see paper)
 
  Recovery vs NN in dataset
-![](https://imgur.com/a/mtfBDdt) 
+![](https://i.imgur.com/uW6bPz2.png) 
 
 Recovery with PGGAN, Mescheder et al, GLO (with 256 training images) and CycleGAN (with 256 training)
 ![](https://i.imgur.com/XRKRvPW.jpg)
