@@ -1,0 +1,5 @@
+CUDA_VISIBLE_DEVICES=0 python latent_recovery.py --dataroot ../data/celeba_MR/celeba_MR/0128/ \
+ --splitAt 256 --imageSize 128\
+ --netFolder networks \
+  --G GLO_G_optim_typeadam_examples0256_nz0512_imsize0128.pth \
+  --nz 512 --maxImages 8
