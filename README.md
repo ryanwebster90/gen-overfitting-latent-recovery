@@ -3,6 +3,10 @@
 pytorch implementation of "Detecting Overfitting of Deep Generators via Latent Recovery", CVPR, 2019 [cvf link](http://openaccess.thecvf.com/content_CVPR_2019/html/Webster_Detecting_Overfitting_of_Deep_Generative_Networks_via_Latent_Recovery_CVPR_2019_paper.html)
 
 # Demo
+
+There is a colab demo here:
+https://colab.research.google.com/drive/1N6zP4xlPunWOkmakcl0mamfhq946nMLB?usp=sharing
+
 Run the demo by calling bash config_latent_recovery_pggan. First download the networks from [this google drive](https://drive.google.com/open?id=11KJXTqo7u_J9E-Pucz5S4tryBU_oPXXr) and place them in a folder named 'networks' (or a directory of your choice). Then modify the path to your CelebA-HQ dataset in config_latent_recovery_pggan. (Note: CelebA-HQ must be a folder of images, compatible with datasets.ImageFolder).
 
 To run latent_recovery.py on your own networks, save the network directly (with torch.save(..)), place the network definition file in this folder (for example DCGAN_ryan.py) and provide the network path / name when calling latent_recovery.
